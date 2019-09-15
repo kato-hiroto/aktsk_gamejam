@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5597461385745791631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6016702014072385285}
+  - component: {fileID: 2328462286339528987}
+  m_Layer: 0
+  m_Name: PictureSetGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6016702014072385285
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5597461385745791631}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.088292554, y: 0.38165152, z: 0.01837304}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2328462286339528987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5597461385745791631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6411856a390d64738a899451776dbd6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emptyTexture: {fileID: 2800000, guid: f818ca49e729c4415ad33f0f71620c9a, type: 3}
+  textureSets:
+  - {fileID: 11400000, guid: 74ce5be9f383e48768566e0457e046db, type: 2}
+  - {fileID: 11400000, guid: d16e03c610b90484c90fb125bc744d73, type: 2}
+  - {fileID: 11400000, guid: c86caade98c3f4f43ab65162087a0719, type: 2}
+  - {fileID: 11400000, guid: d3ac66ff1146b4ee89c1ea1bb1cc3e97, type: 2}
+  - {fileID: 11400000, guid: 7c7fb33ba30694b178a8f7819adbc857, type: 2}
+  - {fileID: 11400000, guid: b8e0d265930f645bc8accafaa1a07b2f, type: 2}
+  - {fileID: 11400000, guid: fa21617295944458fa20ead80b6d2160, type: 2}
+  - {fileID: 11400000, guid: 8a5955f39e3522c48885ace1d61f86f3, type: 2}
+  pictureSetPrefab: {fileID: 2627501339846130767, guid: 8348ad36f1c9943de9fa5f0c7c482d8f,
+    type: 3}
+  pictureSetInitPosition: {fileID: 0}
+  focusFrame: {fileID: 0}
+  multipleTextureShader: {fileID: 4800000, guid: 2b80b26292f4f4437ae0f217f2282277,
+    type: 3}
+  materialBufferNum: 30
+  twoTexTime: 5
+  threeTexTime: 10
+  fourTexTime: 15

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4833f9d5a0c54ebea417a96d2595f4b, type: 3}
+  m_Name: Signs
+  m_EditorClassIdentifier: 
+  textures:
+  - {fileID: 2800000, guid: 736782c5b71e44e76a6705fa51b8add5, type: 3}
+  - {fileID: 2800000, guid: 82f9818ad305b4214ab1b125165cc7f5, type: 3}
+  - {fileID: 2800000, guid: 6f5d644d25f174f0985308776b073620, type: 3}
+  - {fileID: 2800000, guid: 5032eb6ebd80444fc9d729318ceb6c34, type: 3}
+  - {fileID: 2800000, guid: b708557f5c28f4301a79722be5ace2d4, type: 3}
